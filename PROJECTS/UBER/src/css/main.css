@@ -1,0 +1,202 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 0 0;
+}
+ul{
+    margin: 0;
+
+}
+.row{
+    margin: 0;
+}
+nav{
+    min-height: 50px;
+    background-color: #212121;
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+}
+.menu_links{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.menu_items{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+nav a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.sub_menu{
+    background-color: rgba(0, 0, 0, 0.6);
+       min-height: 84px;
+       position: absolute;
+       width: 100%;
+}
+.logo_text{
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.sub_menu .container{
+    min-height: inherit;
+}
+.sub_menu .container .row{
+    min-height: inherit;
+    align-items: center;
+}
+.call_text{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: end;
+}
+.call_text span{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.btn_call{
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border:none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.promo{
+    background-image: url(../img/main_bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+.promo_box{
+    text-align: center;
+    padding: 200px 0 135px 0;
+    align-items: center;
+}
+.promo_box .btn_call{
+    margin: auto auto;
+    width: 259px;
+    height: 63px;
+    font-size: 18px;
+}
+h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2.promo_sub{
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 22px;
+}
+.promo_text{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px;
+    margin-bottom: 118px;
+}
+.name{
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 71px;
+}
+.name_disc{
+    color: #222222;
+    display: block;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 38px;
+    line-height: 38px;
+}
+.name_disc span{
+    color: #222222;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+.promises_box{
+    padding: 40px 0 33px 0;
+}
+.promises_icon_space{
+    display: flex;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.promises_text span{
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+.promises_text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+}
+.icons_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promises_pading{
+    padding-bottom: 35px;
+}
+.opotunites{
+    background-image: url(../img/BG_mobile_apk.png);
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain; 
+}
